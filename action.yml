@@ -1,0 +1,13 @@
+name: 'BalaFFS Print'
+description: 'Testing the action.'
+branding:
+    icon: globe
+    color: green
+inputs:
+    text-to-print:
+        description: 'Testing a print option'
+        required: true
+        default: null
+runs:
+    using: 'node12'
+    main: 'dist/index.js'
